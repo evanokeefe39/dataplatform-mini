@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dataplatform-mini"
+version = "0.1.0"
+description = ""
+authors = ["evanokeefe39 <evan.okeefe39@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlmesh = "^0.221.1"
+duckdb = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
